@@ -19,6 +19,10 @@ public class Prices {
         extras.put("medium", 0.25);
         extras.put("large", 0.50);
     }
+    //este método devuelve el valor de la clave que escribiremos en nameExtra
+    public static Double getPriceExtra(String nameExtra){
+        return extras.get(nameExtra);
+    }
 
 
     public static void display(){
